@@ -9,7 +9,7 @@ latitude: "52.368624"     # decimal latitude of workshop venue - this should be 
 longitude: "4.894915"    # decimal longitude of the workshop venue - this should be a number greater than or equal to -180, and less than or equal to 180 (use https://www.latlong.net)
 humandate: "November 3-24, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:00-15:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2026-11-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+startdate: 2026-11-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2026-11-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Anouk Vlug", "Charlie Green", "Sreenithya Avadakkam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Krish Raghav", "Kitty Berteling"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
@@ -324,16 +324,6 @@ address.
     <div class="row">
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Workshop Recordings</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-            {% comment %}
-            WORKSHOP RECORDINGS
-
-            Modify or remove the block below if you plan to record the workshop.
-            {% endcomment %}
-            <p id="recordings">
-            Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-            To foster a positive online learning environment, we strongly recommend that participants join in real time.
-            As a result, workshop recordings are not recommended and may not be available to learners.
-            </p>
         </dd>
     </div>
     <div class="row">
